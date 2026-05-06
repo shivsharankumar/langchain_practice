@@ -9,8 +9,6 @@ chat_history=[
     SystemMessage(content="You are a helpful assistant"),
     
 ]
-
-
 while True:
     user_input=input("You: ")
     # chat_history.append({"role": "user", "content": user_input})#it is identified by langchain and it will be used to generate response based on the user input and the previous conversation history
